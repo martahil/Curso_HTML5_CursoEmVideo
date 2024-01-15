@@ -8,11 +8,11 @@
 body {
     background-color: #dddddd;
     color: rgba(0, 0, 0, 1);
-    font-family: Arial, sans-serif;    
+    font-family: Arial, sans-serif;
 }
 
 div#interface {
-    width: 900; 
+    width: 900;
     background-color: white;
     margin: -20px auto 10px auto; /*-20px auto 10px auto*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -42,13 +42,13 @@ header#cabecalho img#icone {
 header#cabecalho {
     border-bottom: 1px #606060 double;
     height: 150px;
-    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;    
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 }
 
 header#cabecalho h1{
     font-family: 'FonteLogo', sans-serif;
     font-size: 30pt;
-    color: #606060;    
+    color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
     padding: 0px;
     margin-bottom: 0px;
@@ -57,7 +57,7 @@ header#cabecalho h1{
 header#cabecalho h2{
     font-family: 'Titillium Web', sans-serif;
     font-size: 15pt;
-    color: #888888;    
+    color: #888888;
     padding: 0px;
     margin-top: 0px;
 }
@@ -71,7 +71,7 @@ figure.foto-legenda {
 
 figure.foto-legenda  img{
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
 
 figure.foto-legenda figcaption {
@@ -130,13 +130,7 @@ nav#menu a:hover { /*a d âncora*/
     text-decoration: underline;
 }
 
-section#corpo {
-    display: block;
-    width: 500px; 
-    float: left;
-    border-right: 1px solid #606060; /*é a borda entre o section e o aside*/
-    padding-right: 15px;
-}
+
 
 article#noticia-principal h2 {
     font-size: 13pt;
@@ -180,14 +174,14 @@ table#tabelaspec {
 table#tabelaspec td {
     border: 1px solid #606060;
     padding: 10px;
-    text-align: center; 
+    text-align: center;
     vertical-align: middle;
 }
 
 table#tabelaspec td.ce { /*ce: coluna da esquerda*/
     color: #dddddd;
     background-color: #606060;
-    vertical-align: top; 
+    vertical-align: top;
     font-weight: bold;
 }
 
@@ -209,9 +203,70 @@ table#tabelaspec caption span { /* parte do título da tabela (Mar/2013)*/
     margin-top: 10px; /*aproxima o texto da primeira linha da tabela*/
 }
 
-aside#lateral {
+/*section#corpo {
     display: block;
-    width: 350px; 
+    width: 500px;
+    float: left;/*
+    border-right: 1px solid #606060; /*é a borda entre o section e o aside*/
+    /*padding-right: 15px;
+}*/
+
+div#leftAndRight {
+    /* background: #e7e7e7; */
+    display: flex;
+    justify-content: center;
+    /* padding: 5%; */
+    /* width: 80%; */
+}
+
+#left, #right {
+    /* background: #ccc; */
+    padding: 2%;
+}
+
+div#left {
+    /* display: block; */
+    width: 500px;
+    /* float: left; */
+    border-right: 1px solid #606060; /*é a borda entre o section e o aside*/
+    padding-right: 15px;
+}
+
+div#right {
+    /* display: block; */
+    width:  350px;
+
+    /* float: right; */
+    background-color: #dddddd;
+    /* margin-top: 10px; */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+video#how-it-feels {
+    background-color: red;
+
+}
+
+div#right h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    /* margin-top: 0px; */
+    margin-top: 10px;
+}
+
+div#right h2 {
+
+    font-size: 13pt;
+    color: #ffffff;
+    background-color: #606060;
+    padding: 5px;
+}
+
+/* aside#lateral {
+    display: block;
+    width: 350px;
     float: right;
     background-color: #dddddd;
     margin-top: 10px;
@@ -232,7 +287,7 @@ aside#lateral h2 {
     color: #ffffff;
     background-color: #606060;
     padding: 5px;
-}
+} */
 
 footer#rodape {
     clear: both; /*retira a configuração do aside e do section#corpo no rodapé (que estava aplicada automaticamente)*/
