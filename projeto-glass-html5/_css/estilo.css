@@ -255,7 +255,8 @@ div#right h1 {
     font-family: 'FonteLogo', sans-serif;
     font-size: 20pt;
     color: #606060;
-    margin-top: 20px;     /*original: 10px*/
+    margin-top: 20px;
+    /*original: 10px*/
 }
 
 div#right h2 {
@@ -267,8 +268,10 @@ div#right h2 {
 }
 
 footer#rodape {
-    clear: both;     /*retira a configuração do aside e do section#corpo no rodapé (que estava aplicada automaticamente)*/
-    border-top: 1px solid #606060;     /*borda que separa o rodapé do section#corpo*/
+    clear: both;
+    /*retira a configuração do aside e do section#corpo no rodapé (que estava aplicada automaticamente)*/
+    border-top: 1px solid #606060;
+    /*borda que separa o rodapé do section#corpo*/
 }
 
 footer#rodape p {
