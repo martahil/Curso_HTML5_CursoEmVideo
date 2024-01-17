@@ -44,11 +44,17 @@ a {
 
 img#icone {
     /*position: absolute;*/
-    position: relative;
-    left: 185px;
+    /* position: relative; */
+    /* left: 185px; */
     /*original: 780*/
-    top: -110px;
+    /* top: -110px; */
     /*original: 780*/
+}
+
+.imgMenu {
+    margin-left: 790px;
+    margin-top: -85px;
+    z-index: 100;
 }
 
 header#cabecalho {
@@ -200,6 +206,8 @@ header#cabecalho-artigo h2 {
 
 .direita {
     text-align: right;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
 
 header#cabecalho-artigo h3 {
@@ -300,7 +308,7 @@ div#right h1 {
     font-size: 20pt;
     color: #606060;
     /* margin-top: 0px; */
-    margin-top: -96px;
+    margin-top: 20px;
     /*original: 10px*/
 }
 
