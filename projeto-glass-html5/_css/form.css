@@ -5,7 +5,9 @@ form {
     margin: auto;
 }
 
-input, textarea { /* os campos definidos como input e textarea*/
+input,
+textarea {
+    /* os campos definidos como input e textarea*/
     font-family: sans-serif;
     font-weight: normal;
     font-size: 13pt;
@@ -13,9 +15,10 @@ input, textarea { /* os campos definidos como input e textarea*/
     margin-top: 10px;
 }
 
-input:hover, textarea:hover { /* os campos definidos como input e textarea*/
+input:hover,
+textarea:hover {
+    /* os campos definidos como input e textarea*/
     background-color: #dddddd;
-
 }
 
 legend {
@@ -49,4 +52,3 @@ fieldset#mensagem {
 fieldset#pedido {
     background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
 }
-

@@ -25,24 +25,11 @@ video#filme {
 }
 
 video#how-it-feels {
-    /* display: block;
-    position: relative; */
-    /* left: 90px;
-    top: 85px; */
-    /* width: 350px; */
-
     width: 100%;
-    /* height: 100%; */
 }
 
 video#one-day {
-    /* display: block;
-    position: relative; */
-    /* left: 90px;
-    top: 85px; */
-    /* width: 480px; */
     padding-top: 12px;
     width: 100%;
     height: 100%;
-
 }

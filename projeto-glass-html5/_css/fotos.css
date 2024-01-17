@@ -35,7 +35,6 @@ ul#album-fotos li span {
 
 ul#album-fotos li:hover {
     -webkit-transform: scale(1.5);
-
 }
 
 ul#album-fotos li:hover span {
