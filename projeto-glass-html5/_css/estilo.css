@@ -228,15 +228,13 @@ div#leftAndRight {
     justify-content: center;
 }
 
-#left,
+/* #left,
 #right {
     padding: 2%;
-}
+} */
 
 div#left {
-    /* display: block; */
     width: 500px;
-    /* float: left; */
     border-right: 1px solid #606060;
     /*é a borda entre o section e o aside*/
     padding-right: 25px;
@@ -260,7 +258,6 @@ div#right h1 {
 }
 
 div#right h2 {
-
     font-size: 13pt;
     color: #ffffff;
     background-color: #606060;
